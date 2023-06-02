@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "144937728872",
+    "project_id": "uasrivaldi",
+    "storage_bucket": "uasrivaldi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144937728872:android:f788a2b537f07db53c74dd",
+        "android_client_info": {
+          "package_name": "com.example.uas_rivaldi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144937728872-kfllhm5284ejckpa0u3pathk3tsph9jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGdKitwXw0v-SU2LRj_GkSEy-BWIwJA0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144937728872-kfllhm5284ejckpa0u3pathk3tsph9jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

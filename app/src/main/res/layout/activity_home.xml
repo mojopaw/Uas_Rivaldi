@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/bg_home"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_input"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/start"
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:layout_height="103dp"
+                app:srcCompat="?android:attr/fingerprintAuthDrawable"
+                app:tint="#f33333" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Start"
+                android:layout_gravity="center"
+                android:textColor="#f33333"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
